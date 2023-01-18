@@ -7,7 +7,7 @@ Follow indentation by Organizing the code and push to GitHub and paste the link 
 
 public class AboutMeTest {
 	public static void main(String[] args) {
-		AboutMe ifzal = new AboutMe(); // // Constructor is initialized here
+		AboutMe ifzal = new AboutMe(); // Constructor is initialized here
 		// variables are initialized below
 		ifzal.name = "Muhammad A Mughnee";
 		ifzal.myAge = 35;
@@ -22,7 +22,8 @@ public class AboutMeTest {
 
 		System.out.println("\n-----------------------------------------------------------------------\n");
 
-		AboutMe alex = new AboutMe();
+		AboutMe alex = new AboutMe();// Constructor is initialized here
+		// variables are initialized below
 		alex.name = "Alex Rodriguez";
 		alex.myAge = 55;
 		alex.myCarPayment = 900;
@@ -31,7 +32,7 @@ public class AboutMeTest {
 		alex.myHeight = 6.2f;
 		alex.myGrade = 3.4562;
 		alex.myShirtSize = 'L';
-		alex.vietnamWarVeteran = false;
+		alex.vietnamWarVeteran = true;
 		alex.aboutMe(); // Method is initialized here
 
 	}
